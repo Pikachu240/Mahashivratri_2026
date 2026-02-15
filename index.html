@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahashivratri 2026 | Divine Experience</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="himalaya-bg"></div>
+
+    <div class="music-container">
+        <button id="music-btn" class="music-ctrl" onclick="toggleMusic()">
+            <span id="music-icon">🎵</span> શિવ ધૂન
+        </button>
+        <audio id="shiv-mantra" loop>
+            <source src="shiv-mantra.mp3" type="audio/mpeg">
+            તમારું બ્રાઉઝર ઓડિયો સપોર્ટ કરતું નથી.
+        </audio>
+    </div>
+
+    <div class="container">
+        <nav>
+            <div class="logo">મહાશિવરાત્રી 2026</div>
+            <div class="nav-links">
+                <span onclick="openGallery()" style="color: #fde68a; cursor: pointer; font-weight: 600;">દર્શન ✨</span> 
+                <span onclick="openVidhi()" style="color: #fde68a; cursor: pointer; font-weight: 600;">વિધિ 🔱</span>
+                <span class="share-trigger" onclick="sharePage()">SHARE 🔗</span>
+            </div>
+        </nav>
+
+        <div id="vidhi-modal" class="modal">
+    <span class="close-modal" onclick="closeVidhi()">&times;</span>
+    <div class="modal-content">
+        <h2 class="gold-text" style="font-size: 2.5rem; text-align: center; margin-bottom: 10px;">મહાશિવરાત્રી પૂજા વિધિ</h2>
+        <p style="text-align: center; color: #38bdf8; margin-bottom: 30px;">પગલું દ્વારા પગલું માર્ગદર્શન</p>
+        
+        <div class="vidhi-steps">
+            <div class="step-card">
+                <div class="step-num">૦૧</div>
+                <h4>સ્નાન અને સંકલ્પ</h4>
+                <p>વહેલી સવારે સ્નાન કરી પવિત્ર વસ્ત્રો ધારણ કરવા અને શિવ પૂજાનો સંકલ્પ લેવો.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-num">૦૨</div>
+                <h4>અભિષેક</h4>
+                <p>શિવલિંગ પર દૂધ, દહીં, ઘી, મધ અને ગંગાજળ (પંચામૃત) થી અભિષેક કરવો.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-num">૦૩</div>
+                <h4>બિલ્વપત્ર અર્પણ</h4>
+                <p>'ૐ નમઃ શિવાય' મંત્ર સાથે શિવજીને પ્રિય એવા ત્રણ પાનવાળા બિલ્વપત્ર અર્પણ કરવા.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-num">૦૪</div>
+                <h4>ધૂપ અને દીપ</h4>
+                <p>ધૂપ-દીપ પ્રગટાવી શિવજીની આરતી કરવી અને આખી રાત જાગરણ કરી મંત્ર જાપ કરવા.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <div id="darshan-modal" class="modal">
+    <span class="close-modal" onclick="closeGallery()">&times;</span>
+    <div class="modal-content">
+        <h2 class="gold-text" style="font-size: 2rem; text-align: center; margin-bottom: 20px;">દિવ્ય જ્યોતિર્લિંગ દર્શન</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="somnath.jpg" alt="Somnath">
+                <p>સોમનાથ મહાદેવ</p>
+            </div>
+            <div class="gallery-item">
+                <img src="kashi.jpg" alt="Kashi Vishwanath">
+                <p>કાશી વિશ્વનાથ</p>
+            </div>
+            <div class="gallery-item">
+                <img src="kedarnath.jpg" alt="Kedarnath">
+                <p>કેદારનાથ ધામ</p>
+            </div>
+            <div class="gallery-item">
+                <img src="mahakal.jpg" alt="Mahakal">
+                <p>મહાકાલેશ્વર</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <header class="hero">
+            <div class="hero-left">
+                <h1 class="gold-text">MAHASHIVRATRI <br> 2026</h1>
+                <p class="tagline">ૐ નમઃ શિવાય</p>
+            </div>
+            
+            <div class="shiva-container">
+                <img src="shiva-image.png" alt="Lord Shiva" class="shiva-3d">
+                <div class="divine-halo"></div>
+            </div>
+        </header>
+
+        <section class="info-section">
+            <button class="main-btn" onclick="scrollToSignificance()">મહત્વ અને મહિમા</button>
+            
+            <div class="glass-grid">
+                <div class="glass-card">
+                    <p class="label">શુભ મુહૂર્ત સમય</p>
+                    <h2 id="timer">00 : 00 : 00</h2>
+                    <p class="sub-label">કલાક : મિનિટ : સેકન્ડ</p>
+                </div>
+
+                <div id="significance-section" class="glass-card significance-text">
+                    <h3>મહાશિવરાત્રીનું મહત્વ</h3>
+                    <p>મહાશિવરાત્રી એ માત્ર પરંપરા નથી, પણ બ્રહ્માંડની સર્વોચ્ચ ચેતના સાથે મિલનનો ઉત્સવ છે. હિમાલયની શીતળતામાં બિરાજતા દેવાધિદેવ મહાદેવ આ દિવસે આશીર્વાદ વર્ષાવે છે.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="glass-footer">
+            <h2 class="har-har">HAR HAR MAHADEV</h2>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
