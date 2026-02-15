@@ -1,4 +1,6 @@
 ​🔱 Mahashivratri 2026 - Divine Experience Web UI
+<img width="1920" height="1080" alt="Screenshot 2026-02-15 141555" src="https://github.com/user-attachments/assets/ac7ce36e-afe0-4229-940a-9bd7f8e56a15" />
+
 ​A premium, minimalist, and spiritual web experience dedicated to Mahashivratri 2026. Built with a focus on immersive UI/UX, this project combines modern web technologies with cultural devotion.
 ​✨ Features
 ​🏔️ Himalayan Glassmorphism UI: A deep night-blue theme with frosted glass elements and a subtle Himalayan backdrop.
